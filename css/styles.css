@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    background: url(backdrop.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+    opacity: 90%;
+}
+.navbar{
+    height: 50px;
+    width: 100%;
+    background-color:rgba(135, 207, 235, 0.899);
+    border: 1px solid black;
+    position: fixed;
+}
+.fa-solid{
+  font-size: 2em; 
+  padding-top: 8px;
+  padding-left: 50px;
+}
+.text1{
+    position: absolute;
+    left: 90px;
+    top: 12px;
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.fa-solid, .text1{
+   color: rgba(0, 0, 0, 0.759);
+}
+.navbar ul{
+float: right;
+margin-right: 20px;
+list-style: none;
+}
+.navbar ul li{
+    display: inline-block;
+    padding-right: 30px;
+    line-height: 55px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.navbar ul li a:hover{
+    color: red;
+}
+.intro{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 25%;
+  left: 100px;
+}
+.intro h1{
+    font-size: 70px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.intro p{
+    font-size: 35px;
+    position: absolute;
+    top: 120px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.intro a{
+    text-decoration: none;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: oblique;
+    font-weight: bold;
+}
+.intro .btn{
+  width: 200px;
+  height: 50px;
+  position: absolute;
+  top: 220px;
+  border: 1px solid black;
+  border-radius: 50px 20px;
+  background: linear-gradient(
+    90deg,
+    rgba(245, 245, 245, 0.836),
+    rgb(135, 207, 235)
+  )
+}
+.intro .btn:hover{
+    background-color: rgb(128, 128, 128);
+}
+.intro .btn:active{
+    transform: scale(1.2);
+    cursor: pointer;
+}
